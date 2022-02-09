@@ -87,7 +87,7 @@ async def senko(_, message):
     if not message.reply_to_message.from_user.id == id:
         return
     RANDOM = (
-        "yes {message.from_user.mention}",
+        f"yes {message.from_user.mention}",
         "uwu understand! u~u *does not really understand*",
         "Hmm... :c",
         "you are funny",
